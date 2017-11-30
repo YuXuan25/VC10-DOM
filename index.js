@@ -4,7 +4,8 @@
     $(document).ready(function () {
 
         $("#GoToGoogle").bind("click", function () {
-            //Add your codes here
+            var str = "GoToGoogle";
+            var result = str.link("https://www.google.com");
             
             
             
